@@ -262,7 +262,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      mainnet: "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW",
+      rinkeby: "NS4S9UP9T8TDMPVI9H9RWH572AKWQPI4UN",
       // add other network's API key here
     },
   },

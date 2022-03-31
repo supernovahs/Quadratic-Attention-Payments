@@ -42,7 +42,7 @@ function Home({ yourLocalBalance, readContracts, writeContracts, tx, blockExplor
   return (
     <div>
       <div style={{ border: "1px solid #cccccc", padding: 15, margin: "auto", width: 500 }}>
-        <h1>Budweiser</h1>
+        <h1>WEb3 Ads Board</h1>
         <div style={{ margin: 10 }}>
           <Input
             onChange={e => {
@@ -88,7 +88,7 @@ function Home({ yourLocalBalance, readContracts, writeContracts, tx, blockExplor
                     </div>
                   }
                 >
-                  <img height={300} width={300} src={item.link} alt="" />
+                  <img height={300} width={500} src={item.link} alt="" />
                 </Card>
 
                 <div>

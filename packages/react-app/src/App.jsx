@@ -247,7 +247,11 @@ function App(props) {
   return (
     <div className="App">
       {/* ✏️ Edit the header and change the title to your project name */}
-      <Header />
+      <Header
+        link={"https://github.com/supernovahs/Quadratic-Attention-Payments"}
+        title={"Quadratic Attention Payment Prototype"}
+        subTitle={"Lookin  for your suggestions"}
+      />
       <NetworkDisplay
         NETWORKCHECK={NETWORKCHECK}
         localChainId={localChainId}
